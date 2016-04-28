@@ -71,17 +71,17 @@
               <td><input class="form-control item_desc" value="First Hour" /></td>
               <td><input class="form-control cost" value="100.00" /></td>
               <td><input class="form-control qty" value="0" /></td>
-              <td class="price_td"><span class="price">0.00</span><span class="subtotal_currency"></span></td>
+              <td class="price_td"><span class="price">0.00</span></td>
               <td class="delete_td"><a class="delete" href="javascript:;" title="Remove row"><span class="ti-close"></span></a></td>
             </tr>
             
-                        <tr class="item-row">
+              <tr class="item-row">
               <td><input class="form-control item_name" value="Hourly Rate" /></td>
 
               <td><input class="form-control item_desc" value="Hourly Rate" /></td>
               <td><input class="form-control cost" value="60.00" /></td>
               <td><input class="form-control qty" value="0" /></td>
-              <td class="price_td"><span class="price">0.00</span><span class="subtotal_currency"></span></td>
+              <td class="price_td"><span class="price">0.00</span></td>
               <td class="delete_td"><a class="delete" href="javascript:;" title="Remove row"><span class="ti-close"></span></a></td>
             </tr>
           
@@ -100,7 +100,7 @@
           <table class="table table-hover" id="totals">
             <tr>
               <th style="width:50%">Subtotal:</th>
-              <td><span id="subtotal">0.00</span><span class="subtotal_currency"></span></td>
+              <td><span id="subtotal">0.00</span></td>
             </tr>
             <tr>
               <th>Tax:</th>
@@ -108,7 +108,7 @@
             </tr>
             <tr>
               <th>Total:</th>
-              <td class="balance"><span class="due" id="invoice_total">0.00</span><span class="subtotal_currency"></span></td>
+              <td class="balance"><span class="due" id="invoice_total">0.00</span></td>
               <%=f.hidden_field :amount, id: "invoice_total1" %>
             </tr>
           </table>
@@ -125,7 +125,7 @@
     
     <div id="terms">
       <h5>Terms</h5>
-      <textarea id="10">Payment terms: net 30. Interest accrued at 1.5% per month thereafter.</textarea>
+      <textarea id="10">Payment due upon receipt. Thank you for your business</textarea>
     </div>
   </div>
   <% end %>
