@@ -1,3 +1,10 @@
+/*global bind1*/
+/*global update_balance*/
+/*global update_subtotal*/
+/*global bind*/
+/*global bind2*/
+/*global $*/
+
 function update_subtotal() {
 	var subtotal = 0;
 	$('.price').each(function(i){

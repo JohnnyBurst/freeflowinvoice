@@ -3,6 +3,7 @@
 /*global update_subtotal*/
 /*global bind*/
 /*global bind2*/
+/*global $*/
 
 $(document).ready(function(){
 
