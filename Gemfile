@@ -12,6 +12,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'themify-icons-rails'
+gem 'ransack'
+gem 'whenever', :require => false
 
 group :development, :test do
   gem 'byebug'
