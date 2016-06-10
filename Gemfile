@@ -14,6 +14,8 @@ gem 'simple_form'
 gem 'themify-icons-rails'
 gem 'ransack'
 gem 'whenever', :require => false
+gem 'prawn'
+gem 'informant-rails'
 
 group :development, :test do
   gem 'byebug'
